@@ -1,0 +1,14 @@
+/* Элемент с классом no-cursor и все вложенные в него элементы */
+.no-cursor, .no-cursor * {
+    cursor: none;
+    /*background: transparent;*/
+    /*background: rgba(255, 234, 13, 0.5)*/
+    /*opacity: 0.9}*/
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
