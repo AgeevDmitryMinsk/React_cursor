@@ -45,7 +45,7 @@ class NeonCursor extends React.Component {
         document.removeEventListener('mousemove', this.handleMouseMove);
     }
 
-    handleTouchMove = (event) =>    {
+    handleMouseMove = (event) =>    {
         this.setState({
             top: event.pageY,
             left: event.pageX,
