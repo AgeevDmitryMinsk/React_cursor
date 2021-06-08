@@ -36,7 +36,7 @@ class NeonCursor extends React.Component {
     // Метод будет вызван сразу после монтирования: создаём эффекты
     componentDidMount() {
         // document.addEventListener('mousemove', this.handleMouseMove);
-        document.addEventListener('touchmove', this.handleTouchMove);
+        document.addEventListener('touchstart', this.handleTouchMove);
         document.documentElement.classList.add('no-cursor');
     }
 
